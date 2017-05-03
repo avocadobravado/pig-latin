@@ -36,3 +36,14 @@ Specs for Pig Latin translator:
 This project is licensed under the MIT License
 
 **_Daniela Trulls and Rose Sponseller_** Copyright (c) 2017
+
+//   for(var index = 1; index < consonants.length; index +=1){
+//   if (userInput[1] === consonants[index]){
+//     var secondConsonant = userInput1.charAt(0).slice(-1); //change slice
+//     console.log(secondConsonant);
+//     userInput = userInput.slice(1);
+//     console.log(userInput);
+//     userInput = userInput1 + userInput + secondConsonant + "ay";
+//     console.log(userInput);
+//   }
+// }
