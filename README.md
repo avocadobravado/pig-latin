@@ -6,7 +6,7 @@
 
 Specs for Pig Latin translator:
 
-[Pig Latin Translator]: http://i.imgur.com/YM9Pacr.png
+![Pig Latin Translator](http://i.imgur.com/YM9Pacr.png)
 
 ## Setup/Installation Requirements
 
