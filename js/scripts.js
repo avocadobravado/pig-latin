@@ -23,9 +23,15 @@ $(function(){
       var userInput0 = userInput + "way";
       $("#output").text(userInput0);
     }
-    // (userInput[0] === vowels[index]) { break };
-    }
+  }
 
+
+
+
+//   for(var index = 0; index < consonants.length; index +=1){
+//     if (userInput[0] !== consonants[index]) { break;
+//   }
+// }
 
 // //Adds ay to the end of a string (begginig with CONSONANT)
     for(var index = 0; index < consonants.length; index +=1){
@@ -44,10 +50,11 @@ $(function(){
        var thirdConsonant = userInput.charAt(2).slice(-1);
        console.log(thirdConsonant);
        var userInput3 = userInput.replace(userInput[0], "").replace(userInput[1], "").replace(userInput[2], "") + firstConsonant + secondConsonant + thirdConsonant + "ay";
-       console.log(userInput3);
      }
      $("#output").text(userInput3);
     }
+
+    var convertArray = userInput.split(" ");
 
 
 //TRY TO CONVERT USERINPUT INTO AN ARRAY
