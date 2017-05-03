@@ -22,8 +22,11 @@ $(function(){
       if (userInput[0] === vowels[index]) {
       var userInput0 = userInput + "way";
       $("#output").text(userInput0);
-      }
     }
+    // (userInput[0] === vowels[index]) { break };
+    }
+
+
 // //Adds ay to the end of a string (begginig with CONSONANT)
     for(var index = 0; index < consonants.length; index +=1){
       if (userInput[0] === consonants[index]) {
